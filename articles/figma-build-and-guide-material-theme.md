@@ -96,13 +96,13 @@ Neutral Variant #353837
 
 
 :::message alert
-指定した色がPrimaryやSecondaryに登録されるわけではないことに注意が必要です。
+指定した色が`theme-name/sys/light/primary`や`theme-name/sys/light/secondary`に登録されるわけではないことに注意が必要です。
 :::
 
 
 :::details 指定した色はトーンに置き換えられる
 指定したカラーはトーンに変換されて色の役割にマッピングされます。
-入力した色と同じ値がPrimaryやSecondaryにあてはまるわけではなく、アクセシビリティに考慮された組み合わせパターンが生成されたカラートーンの中から選ばれて、マッピングされます。
+入力した色と同じ値が`primary`や`secondary`にあてはまるわけではなく、アクセシビリティに考慮された組み合わせパターンが生成されたカラートーンの中から選ばれて、マッピングされます。
 
 ![](/images/figma-build-and-guide-material-theme/material-theme-builder-07.png)
 *https://m3.material.io/styles/color/the-color-system/custom-colors#d2a8b8c2-3ce7-4245-a273-8b56deb35c07*
