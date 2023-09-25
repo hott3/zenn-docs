@@ -6,7 +6,7 @@ topics: ["figma", "materialdesign",]
 published: true
 ---
 
-# 【Figma】Material Themeのカラースキームとガイドの作成（MD3,Material Theme Builder,Color Style Guide,Typography Style Guide）
+# Material Themeのカラースキームとガイドの作成
 
 ![](/images/figma-build-and-guide-material-theme/thumnbail.png)
 
