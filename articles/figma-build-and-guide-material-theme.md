@@ -6,6 +6,12 @@ topics: ["figma", "materialdesign",]
 published: true
 ---
 
+:::message
+この記事は2023年8月に公開された記事です。
+Material Theme Builderのバージョンアップにより、記事の内容が一部古くなっています。
+https://www.figma.com/community/plugin/1034969338659738588
+:::
+
 # Material Themeのカラースキームとガイドの作成
 
 ![](/images/figma-build-and-guide-material-theme/thumnbail.png)
