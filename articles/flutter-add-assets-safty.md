@@ -47,7 +47,7 @@ https://pub.dev/packages/flutter_gen
 
 今回は、下記のような画像とフォントを使用します。
 
-```
+```yaml
   assets:
     - assets/images/user
     - assets/images/post
@@ -114,10 +114,8 @@ https://docs.flutter.dev/cookbook/design/fonts
 
 https://pub.dev/packages/flutter_gen#configuration-file
 
-```
+```yaml
 # pubspec.yaml
-# ...
-
 flutter_gen:
   output: lib/gen/ # Optional (default: lib/gen/)
   line_length: 80 # Optional (default: 80)
@@ -135,9 +133,35 @@ https://dart.dev/tools/diagnostic-messages?utm_source=dartdev&utm_medium=redir&u
 
 
 
+### SVGファイルのパス指定でFlutterGenを利用したい
+
+Flutterには、SVGファイルの表示する機能が含まれていないため、表示するためにはパッケージの導入が必要になります。
+FlutterGenを利用する際には、`pubspec.yaml`に記載を追加することで、SVGファイルのパス指定を行えるようになります。
+
+```yaml
+## pubspec.yaml
+flutter_gen:
+  integrations:
+    flutter_svg: true
+```
+
+呼び出し例は下記のように、`.svg`を記述します。
+
+```dart
+Widget build(BuildContext context) {
+  return Assets.images.logo.svg(
+    width: 120,
+    height: 120,
+  );
+}
+```
+
+
 ## 参考
 
 参考になりました🙇‍♂️
+
+https://wasabeef.medium.com/fluttergen-25149caea94f
 
 https://zenn.dev/mamushi/scraps/aa3e57f6c8fa09
 
