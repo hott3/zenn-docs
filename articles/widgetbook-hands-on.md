@@ -10,6 +10,8 @@ published: true
 
 ![WidgetbookでUIコンポーネントから開発しよう](/images/widgetbook-hands-on/thumbnail.gif)
 
+## Widgetbookとは
+
 Flutterを用いたアプリケーション開発において、UIコンポーネントの管理は非常に重要です。
 [Widgetbook](https://docs.widgetbook.io/)は、FlutterのWidgetをカタログのように一覧表示し、個々のWidgetの動作を簡単に確認できるライブラリです。
 シミュレーター上でWidgetを操作しているかのように、ブラウザ上でさまざまな状態のWidgetを視覚的に確認できます。
@@ -20,19 +22,38 @@ Widgetbookを使うことで、以下のような事が可能になります。
 - 異なるデバイスのレイアウトや、ダークモード/ライトモードの表示などを確認
 - Widgetbookの操作画面をデプロイしデザイナーとフィードバックを共有
 
-この記事では、Widgetbookプロジェクトの用意とユースケースの追加、アドオンの活用、ノブの活用について解説します。
+この記事では、**Widgetbookプロジェクトの用意とユースケースの追加、アドオンの活用、ノブの活用について**解説します。
 ぜひ、FlutterのUIコンポーネント開発に役立ててください👇
 
+1. [サンプルプロジェクトの紹介](#サンプルプロジェクトの紹介)
+2. [Widgetbookプロジェクトの用意](#Widgetbookプロジェクトの用意)
+3. [ユースケースの追加](#ユースケースの追加)
+4. [開発環境の整備](#開発環境の整備)
+5. [アドオンの活用](#アドオンの活用)
+6. [ノブの活用](#ノブの活用)
+7. [Widgetbook活用方法の考察](#Widgetbook活用方法の考察)
+
+---
+:::message
+この記事は「[Flutter Advent Calendar 2024](https://qiita.com/advent-calendar/2024/flutter)シリーズ 2」22日目の記事です🎄
+
+シリーズ 2<!-- 21日目： by [oh-yeah-sea-kit2](https://qiita.com/oh-yeah-sea-kit2)さん -->
+22日目： 【Widgetbook】UIコンポーネントから開発しよう（Flutter,ハンズオン） ← 今ここ
+<!-- 23日目： by [植木 友浩](https://qiita.com/tomohip)さん -->
+
+シリーズ 1
+21 日目：[非同期初期化が必要なRiverpodプロバイダの初期化方法](https://zenn.dev/altiveinc/articles/riverpod-provider-initialization) by [村松龍之介](https://zenn.dev/riscait)さん
+22 日目：[Pub workspaces を使ってみた](https://zenn.dev/kosukesaigusa/articles/dart-pub-workspaces) by [Kosuke Saigusa](https://zenn.dev/kosukesaigusa)さん
+23 日目：by [ひであ](https://qiita.com/hidea) さん
+:::
 ---
 
-1. [Widgetbookプロジェクトの用意](#Widgetbookプロジェクトの用意)
-2. [ユースケースの追加](#ユースケースの追加)
-3. [開発環境の整備](#開発環境の整備)
-4. [アドオンの活用](#アドオンの活用)
-5. [ノブの活用](#ノブの活用)
-6. [Widgetbook活用方法の考察](#Widgetbook活用方法の考察)
+## サンプルプロジェクトの紹介
 
----
+この記事で紹介した手順はサンプルプロジェクトで実施したものをもとに作成しています。
+そのサンプルプロジェクトをGitHubに公開しています。
+
+https://github.com/hott3/widgetbook_trial
 
 ## Widgetbookプロジェクトの用意
 
