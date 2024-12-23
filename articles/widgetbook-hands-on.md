@@ -33,20 +33,19 @@ Widgetbookを使うことで、以下のような事が可能になります。
 6. [ノブの活用](#ノブの活用)
 7. [Widgetbook活用方法の考察](#Widgetbook活用方法の考察)
 
----
 :::message
 この記事は「[Flutter Advent Calendar 2024](https://qiita.com/advent-calendar/2024/flutter)シリーズ 2」22日目の記事です🎄
 
-シリーズ 2<!-- 21日目： by [oh-yeah-sea-kit2](https://qiita.com/oh-yeah-sea-kit2)さん -->
+シリーズ 2
+21日目： [Flutterでポケポケみたいなカード風エフェクトのパッケージつくってみた #個人開発 - Qiita](https://qiita.com/oh-yeah-sea-kit2/items/3155d42dc516ae5b1149) by [oh-yeah-sea-kit2](https://qiita.com/oh-yeah-sea-kit2)さん
 22日目： 【Widgetbook】UIコンポーネントから開発しよう（Flutter,ハンズオン） ← 今ここ
-<!-- 23日目： by [植木 友浩](https://qiita.com/tomohip)さん -->
+23日目： [[Flutter] 静的解析の設定を入れる (flutter_lints) #GitHub - Qiita](https://qiita.com/grhg/items/4210e5b4fd196026d03a) by [grhg - Qiita](https://qiita.com/grhg)さん
 
 シリーズ 1
 21 日目：[非同期初期化が必要なRiverpodプロバイダの初期化方法](https://zenn.dev/altiveinc/articles/riverpod-provider-initialization) by [村松龍之介](https://zenn.dev/riscait)さん
 22 日目：[Pub workspaces を使ってみた](https://zenn.dev/kosukesaigusa/articles/dart-pub-workspaces) by [Kosuke Saigusa](https://zenn.dev/kosukesaigusa)さん
-23 日目：by [ひであ](https://qiita.com/hidea) さん
+23 日目：[Bluesky投稿専用クライアントをつくった #Flutter - Qiita](https://qiita.com/hidea/items/2fb221b898faa5b6a9c3) by [ひであ](https://qiita.com/hidea) さん
 :::
----
 
 ## サンプルプロジェクトの紹介
 
