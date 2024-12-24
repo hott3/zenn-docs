@@ -108,6 +108,7 @@ flutter pub add widgetbook widgetbook_annotation dev:widgetbook_generator dev:bu
 
 Widgetbookプロジェクトのパス依存関係に、アプリプロジェクトを追加します。
 依存関係を追加することで、Widgetbookプロジェクトの開発時にアプリプロジェクトのコードを参照できるようになります。
+アプリプロジェクトのコードを複製せずにimport文を追加することができるので二重管理の手間は起こりません。
 
 ```diff yaml:widgetbook/pubspec.yaml
 dependencies:
@@ -313,7 +314,7 @@ Widgetbookの実行が確認できたところで、この後の開発を効率�
 
 ### WidgetbookプロジェクトにmacOSプラットフォームを追加
 
-FlutterをWebのプラットフォームで実行する場合、ホットリロードが機能しません。
+FlutterをWebのプラットフォームで実行する場合、ホットリロードが機能しません。^[Flutter Webはホットリスタートをサポートしていますが、ホットリロードはサポートしていません。[参照](https://docs.flutter.dev/tools/hot-reload#:~:text=Flutter%20web%20currently%20supports%20hot%20restart%20but%20not%20hot%20reload.)]
 ホットリロードを有効にして開発するために、macOSのプロジェクトを追加します。※macOSユーザーのみ
 
 ```
@@ -323,7 +324,7 @@ flutter create --platforms macos .
 
 ### VSCodeのデバッグ環境を設定
 
-VSCodeを利用している場合、`launch.json`を追加することでデバッグ環境の設定と実行が効率的に行うことができます。
+VSCodeを利用している場合、`launch.json`を追加することでデバッグ環境の設定と実行を効率的に行うことができます。
 以下のファイルを`.vscode/launch.json`として作成することで、さきほどの実行コマンドを叩く必要がなく、VSCodeの「実行とデバッグ」メニューからWidgetbookプロジェクトを実行できます。
 
 ```json:.vscode/launch.json
