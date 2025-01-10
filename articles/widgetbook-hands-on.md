@@ -285,6 +285,7 @@ Try running the generator that will generate the file referenced by the URI.
 ビルドランナーを実行して、`directories`を含んだ`main.directories.g.dart`を生成します。
 
 ```
+cd widgetbook
 dart run build_runner build -d
 ```
 
