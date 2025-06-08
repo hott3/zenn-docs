@@ -11,6 +11,13 @@
 3. `articles/`配下に保存
 4. テンプレートを活用し執筆
 
+
+## 記事内容の確認・案内に関する運用ルール
+
+1. 記事の内容を確認する際は、必ずZenn CLIのプレビュー機能（`npx zenn preview`）を使い、ブラウザで内容を表示する
+2. 記事の内容確認を促す場合は、プレビュー用コマンド（`npx zenn preview`）を実行し、確認用URL（`http://localhost:8000`）を明示する
+3. 記事や公開URLを案内する際は、必ず作成した記事のスラッグ（例: `articles/figma-make-trial-dinner-menu-app`）を付与して案内する
+
 ## プレビュー
 - `npx zenn preview`でローカルプレビュー
 - ブラウザで http://localhost:8000 を開く
@@ -29,3 +36,8 @@
 - 下書きは`published: false`で管理
 - 既存記事の修正もコミット・プッシュで反映
 - 詳細は[公式ガイド](https://zenn.dev/zenn/articles/zenn-cli-guide)参照
+
+---
+
+このZenn CLIの運用ルールをもとに、記事の作成・管理を行ってください。
+
