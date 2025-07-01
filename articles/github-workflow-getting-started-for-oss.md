@@ -205,7 +205,7 @@ graph TD
 	end
 
 	subgraph "あなたのフォーク (origin)"
-		O_Main("main<br>本家と同じ状態を保つ<br><b>※ここでは作業しない</b>")
+		O_Main("main<br>本家と同じ状態を保つ<br>※ここでは作業しない")
 		
 		subgraph "作業スペース"
 			direction LR
@@ -218,10 +218,10 @@ graph TD
 	end
 
 	%% ワークフローの矢印
-	U_Main -- "<b>【同期】</b><br>本家の変更を<br>自分のmainに取り込む" --> O_Main
+	U_Main -- "【同期】<br>本家の変更を<br>自分のmainに取り込む" --> O_Main
 	
-	featA -- "<b>【貢献】</b><br>作業内容を<br>プルリクエスト" --> U_Main
-	featB -- "<b>【貢献】</b><br>作業内容を<br>プルリクエスト" --> U_Main
+	featA -- "【貢献】<br>作業内容を<br>プルリクエスト" --> U_Main
+	featB -- "【貢献】<br>作業内容を<br>プルリクエスト" --> U_Main
 ```
 
 
