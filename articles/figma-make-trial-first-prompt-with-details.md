@@ -154,6 +154,7 @@ https://zenn.dev/hott3/articles/figma-make-trial-dinner-menu-app
 ### 改良したプロンプト
 
 そこで、以下のようにプロンプトを改良しました。
+改良の際に、前回の検証で繰り返しやりとりが発生した内容についても詳細に記載しました。
 
 
 ```md:プロンプト_改良:md
