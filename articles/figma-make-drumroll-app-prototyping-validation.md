@@ -8,7 +8,7 @@ published: true # 公開する場合はtrueに変更
 
 # みんなを笑顔にするドラムロールアプリに必要な機能の検証
 
-<!-- ![みんなを笑顔にするドラムロールアプリに必要な機能の検証](/images/figma-make-drumroll-app-prototyping-validation/cover.png) -->
+![みんなを笑顔にするドラムロールアプリに必要な機能の検証](/images/figma-make-drumroll-app-prototyping-validation/cover.png)
 
 先日、Figma Makeを使ってドラムロールアプリを開発しました。
 この記事では、生成AI時代のプロトタイピングがどれだけユーザー体験を良くするか、その経験を通じて得た知見を紹介しています。
